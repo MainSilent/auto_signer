@@ -226,7 +226,7 @@ def get_projects():
                         
                         time.sleep(5)
                         has_nda = driver.find_elements(by=By.CSS_SELECTOR, value='fl-banner-alert[bannertitle="This Project requires an NDA"]')
-                        has_ip_agreement = driver.find_elements(by=By.CSS_SELECTOR, value='fl-banner-alert[bannertitle="This Project requires an IP Agreement"]')
+                        has_ip_agreement = driver.find_elements(by=By.CSS_SELECTOR, value='fl-banner-alert[bannertitle="You must sign the IP Agreement to work on this project"]')
                         
                         if has_nda or is_nda:
                             do_nda_contract()
