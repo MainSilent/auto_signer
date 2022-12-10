@@ -1,0 +1,18 @@
+{
+    "username": "",
+    "password": "",
+    "fullname": "",
+    "phone": "",
+    "address": "",
+    "country": "",
+    "state": "",
+    "city": "",
+    "delay": 3,
+    "chrome": true,
+    "proxy": {
+        "ip": "",
+        "port": "",
+        "username": "",
+        "password": ""
+    }
+}
