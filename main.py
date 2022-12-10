@@ -199,7 +199,7 @@ def get_projects():
             projects = []
             for project in projects_elem:
                 url = project.find_element(by=By.CSS_SELECTOR, value='a').get_attribute("href")
-                name = project.find_element(by=By.CSS_SELECTOR, value='.Project-title').text
+                name = project.find_element(by=By.CSS_SELECTOR, value='.Title-text').text
                 projects.append({ 'name': name, 'url': url })
 
             for project in projects:
